@@ -7,6 +7,14 @@
 }
 
 
+h1{
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: all 0.75s;
+    font-size:xx-large;
+}
+
 ul{
   padding-inline-start: 0px;
 }
@@ -115,6 +123,29 @@ nav ul a{
 
 
   @media (max-width: 1000px) {
+
+
+
+    nav a {
+      border: 2px solid #fff;
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      margin: 5px;
+      border-radius: 15px;
+    }
+
+
+
+
+
+  li {
+    margin-top:40px;
+    
+  }
+
+
+ 
   .headerbird{
     display:none;
   }

@@ -1,3 +1,8 @@
 # cse134-portfolio
 
-link: https://thriving-marshmallow-7a121a.netlify.app/index.html
+Name: Samuel Martinelli
+PID: A15936045
+
+link: https://luminous-cannoli-621b22.netlify.app
+
+
