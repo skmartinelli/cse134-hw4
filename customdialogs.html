@@ -77,14 +77,14 @@
 </body>
 
 <!--customdialog script-->
-<script src="customdialog.js"></script>
+<script async type ="module" src="customdialog.js"></script>
 
 <!-- Prompt script -->
 <script>
 
 const showPrompt = document.getElementById('showPrompt');
 const prompt =  document.getElementById('prompt');
-const promptOutput = document.querySelector('promptOutput');
+const outputBox = document.querySelector('output');
 
 showPrompt.addEventListener('click', () => {
     prompt.showModal();

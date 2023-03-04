@@ -1,3 +1,5 @@
+// import {sanitize} from "DOMPurify-main/dist/purify.js";
+
 
 const showAlert = document.getElementById('showAlert');
 const alert = document.getElementById('alert');
@@ -25,4 +27,4 @@ confirm.addEventListener('close', () => {
   });
 
 
-// Prompt done in html file because I can't figure out DOMpurify. 
+// Prompt done in html file because I can't figure out DOMpurify in the js file. 
